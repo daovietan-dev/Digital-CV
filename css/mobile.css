@@ -1,0 +1,73 @@
+/* for mobile */
+@media (max-width: 767px) {
+    /* BANNER */
+    .banner {
+        background-image: linear-gradient(
+                rgba(34, 34, 34, 0.6),
+                rgba(34, 34, 34, 0.3)
+            ),
+            url(../images/banner01.jpg);
+    }
+
+    /* NAVBAR */
+    .navigation .container {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .navigation a {
+        width: 100%;
+    }
+
+    .nav-img {
+        display: none;
+    }
+
+    /* ABOUT */
+    .about .container {
+        grid-template-columns: 1fr;
+        line-height: 2;
+    }
+
+    /* JOB */
+    .experience,
+    .education,
+    .activity,
+    .habit,
+    .language,
+    .skill {
+        flex: 100%;
+    }
+
+    /* CERTIFICATE */
+    .certificate .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .web,
+    .js,
+    .db {
+        padding: 0;
+    }
+
+    .certificate .web {
+        border-right: none;
+    }
+
+    /* PROJECT */
+    .project .container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-time span:last-child {
+        text-align: start;
+    }
+
+    /* FOOTER */
+    .footer .container a span {
+        display: none;
+    }
+}

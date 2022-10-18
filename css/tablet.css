@@ -1,0 +1,76 @@
+/* for tablet */
+@media (max-width: 991px) {
+    /* NAVBAR */
+    .navigation {
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    .nav-img {
+        width: 50px;
+    }
+    .nav-img img {
+        display: none;
+    }
+
+    /* ABOUT */
+    .about .container {
+        line-height: 1.6;
+    }
+
+    .list-info {
+        line-height: 2;
+    }
+
+    /* JOB */
+    .experience,
+    .education,
+    .activity,
+    .habit,
+    .language,
+    .skill {
+        flex: calc(100% / 3);
+    }
+
+    /* CERTIFICATE */
+    .web,
+    .js,
+    .db {
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        margin: 40px 0 0 0;
+    }
+
+    .certificate h3 {
+        margin-top: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .certificate img {
+        width: 100%;
+    }
+
+    .certificate .web {
+        border-right: 1px solid #d6c08d;
+    }
+
+    .certificate .web div {
+        border: none;
+        margin: 0;
+    }
+
+    /* PROJECT */
+    .project-time {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .project-time span:nth-child(2),
+    .project-time span:last-child {
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .project-time span:last-child {
+        text-align: end;
+    }
+}
